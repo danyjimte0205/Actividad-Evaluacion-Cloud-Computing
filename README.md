@@ -33,8 +33,7 @@ data = pd.read_sql(query, connection)
 
 Clona este repositorio a tu máquina local:
 ```python
-git clone https://github.com/tuusuario/Cloud-Computing-Prediction.git
-cd Cloud-Computing-Prediction
+git clone https://github.com/danyjimte0205/Actividad-Evaluacion-Cloud-Computing
 ```
 - **2. Instalar dependencias**
 
