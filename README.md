@@ -33,7 +33,7 @@ data = pd.read_sql(query, connection)
 
 Clona este repositorio a tu máquina local:
 ```python
-git clone https://github.com/tuusuario/Cloud-Computing-Prediction.git
+git clone https://github.com/danyjimte0205/Actividad-Evaluacion-Cloud-Computing
 cd Cloud-Computing-Prediction
 ```
 - **2. Instalar dependencias**
@@ -62,10 +62,6 @@ Despliega el modelo entrenado en Azure utilizando el script ```python deployment
 
 Usa el notebook ```python API.ipynb ``` para enviar datos al servicio web desplegado y recibir predicciones de la ```python  ModifiedDate ```  para cada cliente:
 
-```python
-from api import get_predictions
-predictions = get_predictions(input_data)
-```
 
 
 
